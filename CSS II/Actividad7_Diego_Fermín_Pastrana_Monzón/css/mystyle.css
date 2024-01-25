@@ -1,0 +1,47 @@
+body{
+    text-align: center;
+    line-height: 32px;
+}
+img{
+    width: 225px;
+}
+h1{
+    font-size: 80px;
+    color: whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+h2{
+    font-size: 40px;
+    color:whitesmoke;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+div{
+    opacity: 0.2;
+}
+
+
+
+.fondo{
+    animation-name: fondo;
+    animation-duration: 4s;
+    animation-play-state:initial;
+    animation-iteration-count: infinite;
+    animation-direction:normal;
+}
+
+@keyframes fondo {
+    0% {background-color: crimson;}
+    20% {background-color: lightskyblue;}
+    40% {background-color: orange;}
+    60% {background-color: turquoise;}
+    80% {background-color: teal;}
+    100% {background-color: yellowgreen;}
+    100% {background-color: crimson;} /* Puse crimsom de nuevo para que la animación se repita suavemente sin cambios de color bruscos */
+    
+}
+
+
+div:hover{ 
+    opacity: 1;
+    color: whitesmoke; 
+}
