@@ -1,0 +1,73 @@
+body{
+    font-family: sans-serif;
+    padding: 20px;
+    background-image: url("../img/granos-cafe.jpg")
+} 
+h1, h2, p{
+    text-align: center;
+}
+h1, h2{
+font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;    
+font-weight: bolder;
+}
+
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+} 
+h2{
+    font-size: 30px;
+}
+hr{
+    height: 2px;
+    background-color: brown;
+    border-color: brown;
+}
+alineadoAbajo{
+    text-align: right;
+}
+.menu{
+    width: 80%;
+    background-color: burlywood;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 20px;
+    max-width: 500px;
+}
+img{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: -25px; 
+}
+.established{
+    font-style: italic;
+}
+.postre{
+    text-align: left;
+    width: 75%;
+}
+.precio{
+    text-align: right;
+    width: 25%;
+}
+.article p{
+    display: inline-block;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+a:visited{
+    color: black;
+}
+.bottom-line{
+    margin-top: 25px;
+}
+
+.direccion{
+    margin-bottom: 5px;
+}
+
+
+

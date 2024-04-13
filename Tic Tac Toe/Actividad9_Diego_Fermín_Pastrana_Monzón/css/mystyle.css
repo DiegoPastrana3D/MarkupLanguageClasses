@@ -1,0 +1,30 @@
+table,tr,td{
+    border: 1.5px;
+    box-shadow: 0 1px 18px cyan;
+    border-collapse: collapse;  
+}
+
+td{
+    border: 3px solid cyan;
+    text-align:center; 
+    width: 90px;
+}
+
+tr{
+    border: 2px;
+    background-color: yellowgreen;
+    opacity: 0.5;
+    width: 90px;
+    height: 90px;    
+}
+
+h1{
+    font-size: 35px;
+    font-family: 'Lobster', sans-serif;
+    text-shadow: 0 1px 18px darkgreen;
+}
+
+body{
+    background-color: lightyellow;
+}
+
